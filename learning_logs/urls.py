@@ -1,12 +1,15 @@
-"""Deifine padrãos de URL para learning_logs"""
+"""Define padrões de URL para learning_logs"""
 
-from django.urls import re_path, include
+from django.urls import path
 
 from . import views
 
-app_name='learning_logs'
+app_name = 'learning_logs'
 
 urlpatterns = [
-    # Pagína inicial
-    re_path(r'^$', views.index, name='index')
+    # Página inicial
+    path('', views.index, name='index'),
+
+    # Mostra todos os tópicos
+    path('topics/', views.topics, name='topics'),
 ]

@@ -1,5 +1,6 @@
 <p>
-    <a href="{url 'learning_logs:index'%}">Learning log</a>
+    <a href="{% url 'learning_logs:index' %}">Registro de aprendizado</a> -
+    <a href="{% url 'learning_logs:topics' %}">Topicos</a>
 </p>
 
 {% block content %}{% endblock content %}

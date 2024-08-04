@@ -10,6 +10,7 @@ class Topic(models.Model):
     def __str__(self):
         """Delvove uma representação em string do modelo."""
         return self.texto
+
 class Entry(models.Model):
     """Algo especifico sobre o assunto"""
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
