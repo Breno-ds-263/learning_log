@@ -4,12 +4,12 @@ from django.db import models
 
 class Topic(models.Model):
     """um assunto sobre o qual o usuário esta aprendendo"""
-    texto = models.CharField(max_length=200)
+    text = models.CharField(max_length=200)
     data_added = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         """Delvove uma representação em string do modelo."""
-        return self.texto
+        return self.text
 
 class Entry(models.Model):
     """Algo especifico sobre o assunto"""

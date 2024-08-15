@@ -14,4 +14,7 @@ urlpatterns = [
 
     # Página de detalhes para um único tópico
     path('topics/<topic_id>/', views.topic, name='topic'),
+
+    # Página para novo tópio
+    path('new_topic/', views.new_topic, name='new_topic')
 ]
