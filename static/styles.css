@@ -1,0 +1,26 @@
+/* styles.css */
+
+/* Cor de fundo do corpo */
+body {
+    background-color: #f0f8ff; /* Cor de fundo clara, substitua pelo que preferir */
+}
+
+/* Cor do texto principal */
+body, .navbar-nav .nav-link {
+    color: #333; /* Cor do texto principal, substitua pelo que preferir */
+}
+
+/* Cor da barra de navegação */
+.navbar {
+    background-color: #007bff; /* Cor de fundo da barra de navegação, substitua pelo que preferir */
+}
+
+/* Cor dos links na barra de navegação */
+.navbar-nav .nav-link {
+    color: black; /* Cor dos links, substitua pelo que preferir */
+}
+
+/* Efeito de hover nos links da barra de navegação */
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Cor dos links ao passar o mouse, substitua pelo que preferir */
+}
