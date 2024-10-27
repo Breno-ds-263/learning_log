@@ -60,7 +60,3 @@ Crie um branch para sua feature (git checkout -b feature/nova-feature).
 Faça commit das suas alterações (git commit -am 'Adiciona nova feature').
 Envie para o branch (git push origin feature/nova-feature).
 Abra um Pull Request.
-
-
-
-Esse README fornece uma visão clara sobre o propósito e funcionamento da aplicação, além de instruções para instalar e contribuir com o projeto.
